@@ -30,9 +30,9 @@ Before you begin, ensure you have met the following requirements:
 ## Externalizing Log4j Configuration File
 If you want to externalize the Log4j configuration file, you can pass it as a runtime argument using the `-Dlog4j.configurationFile` option. 
 
-For example:
-```bash
-mvn clean compile exec:java -Dlog4j.configurationFile=logger-config-files/log4j2.xml
+- For example:
+  ```bash
+  mvn clean compile exec:java -Dlog4j.configurationFile=logger-config-files/log4j2.xml
 
 ## Acknowledgments
 
